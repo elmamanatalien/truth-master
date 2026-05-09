@@ -107,7 +107,7 @@ export async function POST(req: NextRequest) {
     // 呼叫 Gemini
     const genAI = new GoogleGenerativeAI(apiKey);
     const model = genAI.getGenerativeModel({
-      model: 'gemini-2.0-flash',
+      model: 'gemini-1.5-flash-latest',
       systemInstruction: SYSTEM_PROMPT,
       generationConfig: {
         temperature: 0.4,
