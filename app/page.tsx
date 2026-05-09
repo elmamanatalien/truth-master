@@ -371,7 +371,7 @@ export default function TruthMaster() {
                 ref={textareaRef}
                 value={inputText}
                 onChange={(e) => setInputText(e.target.value)}
-                placeholder="例如:朋友傳來的 LINE 訊息、影片網址、或是剛剛看到的新聞..."
+                placeholder="例如:朋友傳來的 LINE 訊息、YouTube 影片網址、或剛收到的健康小知識..."
                 rows={6}
                 className="w-full p-6 rounded-3xl border-2 border-gray-200 focus:outline-none transition-all leading-relaxed bg-gray-50"
                 style={{
